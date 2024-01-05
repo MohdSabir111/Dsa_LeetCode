@@ -1,7 +1,8 @@
 let arr = [2,3,4,10,12,18], start = 0, end=arr.length-1;
 let l = Math.floor((start+end)/2);
-console.log(`floor  ${l}`)
 
+
+// means number should be <= target  
 function floorBS(arr, target){
 	console.log(`floor  ${target}`)
 	while(start<=end){

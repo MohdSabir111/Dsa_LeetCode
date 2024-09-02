@@ -29,9 +29,9 @@ console.log(name);
 
 
 ## forEach : 
-  **Purpose:** forEach() is a non-returning method that is useful for operations that don't require producing a new value or modifying the array itself.
-
- **Non-Chainable:** Because forEach() returns undefined, you cannot chain other array methods directly after it, unlike methods such as map(), filter(), or reduce().
+> [!IMPORTANT]
+> **Purpose:** forEach() is a non-returning method that is useful for operations that don't require producing a new value or modifying the array itself. </br>
+ > **Non-Chainable:** Because forEach() returns undefined, you cannot chain other array methods directly after it, unlike methods such as map(), filter(), or reduce().
 
 ```js
 array.forEach(function(element, index, array) {

@@ -2,7 +2,8 @@
 function findMaxOccurence(array) {
   const count = {};
   for (const num of array) {
-    count[num] = (count[num] || 0) + 1;
+   // count[num] = (count[num] || 0) + 1;
+  count[num] ? count[num]++ : count[num]=1;
    }
   
   let maxNum = null;

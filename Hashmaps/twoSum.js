@@ -1,3 +1,5 @@
+ // we have to return indices so convert the index of the array--> into the values of object  
+
 // Explanation--  complement = 9-2 =7 , hasOwnProperty -its false so   { '2' : 0 }
   // comlement = 9-11 = -2 ,  hasOwnProperty -its false  so  { '2' : 0,  '11' : 1 }
 //  comlement = 9-7= 2  ,  hasOwnProperty -its true so [0,2] answer
@@ -17,7 +19,7 @@ function twoSum(nums, target) {
     }
 
     // If not, store the current number and its index in the numIndices object
-    numIndices[nums[i]] = i;
+    numIndices[nums[i]] = i;   
   
   }
 
